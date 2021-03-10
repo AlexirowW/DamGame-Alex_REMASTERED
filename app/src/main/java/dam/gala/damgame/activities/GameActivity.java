@@ -173,12 +173,12 @@ public class GameActivity extends AppCompatActivity implements InterfaceDialog {
         respuestas[1] = "Nébula";
         respuestas[2] = "Mercurio";
         int[] respuestasCorrectas = new int[]{1};
-        Question question = new Question(enunciado, GameUtil.PREGUNTA_COMPLEJIDAD_ALTA,
-                GameUtil.PREGUNTA_SIMPLE, respuestas, respuestasCorrectas, 20);
 
-        QuestionDialogFragment qdf = new QuestionDialogFragment(question, GameActivity.this);
+
+        /**QuestionDialogFragment qdf = new QuestionDialogFragment(question, GameActivity.this);
         qdf.setCancelable(false);
         qdf.show(getSupportFragmentManager(), null);
+         */
     }
 
     /**
